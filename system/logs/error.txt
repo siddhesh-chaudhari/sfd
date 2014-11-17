@@ -1,0 +1,1 @@
+2014-11-07 13:11:35 - PHP Warning:  substr() expects parameter 3 to be long, string given in C:\wamp\www\sfd\catalog\view\theme\journal2\template\product\product.tpl on line 204

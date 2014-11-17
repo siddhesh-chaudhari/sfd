@@ -1,0 +1,56 @@
+
+.hover-menu-bounce{
+	
+	-webkit-transform-origin: center bottom;
+    -ms-transform-origin: center bottom;
+    transform-origin: center bottom;
+}
+
+.hover-menu-bounce:hover{
+	
+	-webkit-animation-name: pop;
+    animation-name: pop;
+	display: inline-block;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	
+	cursor:pointer;
+}
+
+.hover-menu-mainmenu{
+	transition:0.5s;
+	top:0px;
+	position:relative;
+	cursor:pointer;
+}
+
+.hover-menu-mainmenu:hover{
+	top:-10px;
+}
+
+.hover-menu-mainmenu-shadow{
+	transition:0.5s;
+	cursor:pointer;
+}
+
+.hover-menu-mainmenu-shadow:hover{
+	-webkit-filter: drop-shadow(5px 2px 5px #888);
+ filter: drop-shadow(5px 2px 5px #fff); 
+}
+
+@-webkit-keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
